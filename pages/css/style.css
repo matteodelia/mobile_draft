@@ -291,7 +291,7 @@
 
   .socials {
 		position: absolute;
-		top: 90%;
+		top: 89%;
 		left: 50%;
 		transform: translate(-50%,-50%);
 		margin: 0;
@@ -307,7 +307,7 @@
 
   .instagram {
     position: absolute;
-    top: 90%;
+    top: 89%;
     left: 50%;
     transform: translate(calc(-50% - 25vw),-50%);
     max-width: 4vh;
@@ -316,7 +316,7 @@
 
   .behance {
 		position: absolute;
-		top: 90%;
+		top: 89%;
 		left: 50%;
 		transform: translate(-50%,-50%);
 		max-width: 4.3vh;
@@ -325,7 +325,7 @@
 
   .vimeo {
     position: absolute;
-    top: 90%;
+    top: 89%;
     left: 50%;
     transform: translate(calc(-50% + 25vw),-50%);
     max-width: 4vh;
