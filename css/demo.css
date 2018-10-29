@@ -71,7 +71,6 @@
     top:160%;
     left:50%;
     transform: translate(-50%,-50%);
-    z-index: 800;
 	}
 
 	.box_me {
@@ -81,8 +80,7 @@
 		background-color: #ffffbf;
 		transform: translate(-50%,-50%);
 		top: 160%;
-		left: 50%;
-		z-index: 700;
+		left: 50%;;
 	}
 
 	#swipe_up img{
