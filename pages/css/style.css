@@ -229,6 +229,10 @@
   #location:hover {
 		animation: lampeggio 1s infinite alternate;
   }
+	
+  #swipe_up {
+		display: none;
+  }	
 }
 
 /* end css for computer */
@@ -407,6 +411,15 @@
 		transform: translate(-50%,-50%);
 		animation: lampeggio 1s infinite alternate;
   }
+	
+  #swipe_up img{
+		width: 5vw;
+		height: auto;
+		position: absolute;
+		top: 96%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+  }	
 }
 
 /* end css for mobile */
