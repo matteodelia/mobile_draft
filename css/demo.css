@@ -6,6 +6,10 @@
 /* css for computer */
 
 @media only screen and (min-width: 1125px)  {
+	body {
+		overflow: hidden;
+	}
+	
 	#welcome {
 		font-family: "Gotham Medium";
 		color: #ffffbf;
@@ -107,13 +111,8 @@
 	box-sizing: border-box;
 }
 
-html {
-	background: #000;
-}
-
 body {
 	height: 100vh;
-	overflow: hidden;
 	background-color: #ffffbf;
 }
 
