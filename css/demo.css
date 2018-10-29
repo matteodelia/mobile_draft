@@ -68,13 +68,14 @@
 		margin: 0;
 		padding: 0;
 		text-align: center;
-    font-family: "Gotham Medium";
+                font-family: "Gotham Medium";
 		color: #121117;
 		font-size: 1.75vh;
-    position:absolute;
-    top:160%;
-    left:50%;
-    transform: translate(-50%,-50%);
+                position:absolute;
+                top:160%;
+                left:50%;
+                transform: translate(-50%,-50%);
+		z-index: 70;
 	}
 
 	.box_me {
