@@ -3,22 +3,7 @@
 	src: url("fonts/Gotham/Gotham-Medium.otf")format("opentype");
 }
 
-@media only screen and (max-width: 1125px)  {
-	#welcome {
-		font-family: "Gotham Medium";
-		color: #ffffbf;
-		font-size: 2.5vh;
-		text-decoration: none;
-		position:absolute;
-		top:50%;
-		left:50%;
-		transform: translate(-50%,-50%);
-		animation: lampeggio 1s infinite alternate;
-	}
-	#my_story {
-		display: none;
-	}
-}
+/* css for computer */
 
 @media only screen and (min-width: 1125px)  {
 	#welcome {
@@ -31,9 +16,11 @@
 		left:50%;
 		transform: translate(-50%,-50%);
 	}
+
 	#welcome:hover {
 		animation: lampeggio 1s infinite alternate;
 	}
+
 	#my_story {
 		margin: 0;
 		font-family: "Gotham Medium";
@@ -46,10 +33,68 @@
 		left:80%;
 		transform: translate(-50%,-50%);
 	}
+
 	#my_story:hover {
 		color: #121117;
 	}
+
+	#swipe_up {
+		display: none;
+	}
 }
+
+/* end css for computer */
+
+/* css for mobile */
+
+@media only screen and (max-width: 1125px)  {
+	#welcome {
+		font-family: "Gotham Medium";
+		color: #ffffbf;
+		font-size: 2.5vh;
+		text-decoration: none;
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform: translate(-50%,-50%);
+		animation: lampeggio 1s infinite alternate;
+	}
+
+	#my_story {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+    font-family: "Gotham Medium";
+		color: #121117;
+		font-size: 1.75vh;
+    position:absolute;
+    top:160%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 70;
+	}
+
+	.box_me {
+		position: absolute;
+		width: 100vw;
+		height: 100vh;
+		background-color: #ffffbf;
+		transform: translate(-50%,-50%);
+		top: 160%;
+		left: 50%;
+	}
+
+	#swipe_up img{
+		width: 5vw;
+		height: auto;
+		position: absolute;
+		top: 96%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+}
+
+/* end css for mobile */
 
 @keyframes lampeggio {
   0%   { opacity: 1; }
